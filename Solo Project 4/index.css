@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* DIV container for the Oldagram page*/
+
+.container {
+    margin: 10px auto;
+    border: solid black 5px;
+    border-radius: 30px;
+    width: 400px;
+    padding: 20px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.bottom {
+    padding: 0 15px;
+}
+
+.icon {
+    width: 30px;
+    margin: 5px;
+    padding: 5px 0;
+}
+
+.icon:hover, .icon:focus {
+    background-color: blueviolet;
+    
+}
+
+.avatar, .user-avatar {
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+}
+
+.logo {
+    width: 125px;
+}
+
+.name, span, .likes {
+    font-weight: bold;
+}
+
+.section-1 {
+    margin-top: 20px 5px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.comment {
+    font-size: 18px;
+}
+
+.likes {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.location {
+    margin-top: 0;
+}
+
+.name {
+    margin-bottom: 2px;
+}
+
